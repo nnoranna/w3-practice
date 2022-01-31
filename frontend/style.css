@@ -38,16 +38,24 @@ body {
   margin: 0;
 }
 
-section {
-  justify-content: center;
-  align-items: center;
-}
 
 #cube1{
+  position: fixed;
+  right: 0;
+  bottom: 0;
   width: 400px;
   height: 400px;
   background-color: #0A302E;
+  /*padding-top: 10px;
+  padding-left: 10px;*/
 
+}
+#cube2, #cube3, #cube4, #cube5, #cube6, #cube7, #cube8, #cube9, #cube10 {
+/*padding:inherit;*/
+}
+
+div {
+  margin: auto;
 }
 
 #cube2{
@@ -81,6 +89,9 @@ section {
 }
 
 #cube7{
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 280px;
   height: 280px;
   background-color: #29C2B8;
