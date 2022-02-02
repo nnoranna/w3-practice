@@ -1,65 +1,71 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: none;
-    box-sizing: border-box;
-    background: transparent;
-    font-family: inherit;
-  }
-  a{
-    text-decoration: none;
-  }
-  a img {
-    border: none;
-  }
-  
-  button,
-  a {
-    cursor: pointer;
-    color: inherit;
-  }
-  
-  textarea {
-    resize: none;
-  }
-  
-  button,
-  textarea,
-  select {
-    appearance: none !important;
-    border-radius: 0;
-  }
-
-  /*end of CSS reset*/
-
-  section {
-    min-height: 100vh;
-  }
-
-  section.bg-image img {
-    display: block;
-    width: 100%;
-    height: 100vh;
-    object-fit: contain;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+a{
+  text-decoration: none;
+}
+a img {
+  border: none;
 }
 
-section.background-holder {
-    padding: 20px;
-    background-clip: content-box;
-    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Free-Website-BAckgrounds1.jpg");
-    background-size: 200px 200px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: black;
+button,
+a {
+  cursor: pointer;
+  color: inherit;
 }
-section.button button {
-    background-color: #421dc9;
-    text-align: center;
-    font-size: 14px;
-    border-radius: 15rem;
-    /*position: relative;*/
+
+textarea {
+  resize: none;
 }
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/*end of CSS reset*/
+
+section {
+  min-height: 100vh;
+}
+
+section.bg-image {
+  height: 100vh;
+  overflow: hidden;
+}
+
+section.bg-image img {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+section.bg-image button {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 50%;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  margin: 40px 0;
+  transform: translateX(-50%);
+  background-color: #09CED9;
+}
+
+
 
 input {
   width: 50%;
