@@ -33,29 +33,39 @@
 
   /*end of CSS reset*/
 
-  * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  section {
     min-height: 100vh;
+  }
+
+  section.bg-image img {
+    display: block;
     width: 100%;
-  }
+    height: 100vh;
+    object-fit: contain;
+}
 
-  .box {
-    position: relative;
-    height: 20px;
-    width: 80px;
-    border: 1px;
-    border-radius: 15px;
-    border-color: black;
-  }
-
-  .button {
-    /*background-color: #9c1e1e;*/
-    border: none;
-    /*text-align: center;*/
+section.background-holder {
+    padding: 20px;
+    background-clip: content-box;
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Free-Website-BAckgrounds1.jpg");
+    background-size: 200px 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+section.button button {
+    background-color: #421dc9;
+    text-align: center;
     font-size: 14px;
-    border-radius: 2rem;
+    border-radius: 15rem;
     /*position: relative;*/
-  }
+}
 
+input {
+  width: 50%;
+  padding: 12px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(124, 124, 124);
+  border-radius: 6px;
+}
