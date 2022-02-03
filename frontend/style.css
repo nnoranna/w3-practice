@@ -49,8 +49,18 @@ header {
   width: 100%;
   height: 50px;
   z-index: 99;
+  padding-top: 1rem;
   text-align: center;
-  background-color: rgb(241, 241, 241);
+  /*word-spacing: normal;*/
+  background: linear-gradient(111.53deg, #1815BA 7.56%, #DB00FF 126.86%);
+  opacity: 70%;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+a {
+  margin: 3.5rem;
+  color: white;
 }
 
 section {
@@ -74,11 +84,22 @@ section.bg-image img {
 }
 
 section.bg-image h1 {
-  margin-top: 40px;
+  margin-top: 120px;
   margin-left: 40px;
   font-family: Poppins;
   font-size: 100px;
   color: whitesmoke;
+  line-height: 130px;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 section.bg-image button {
@@ -86,30 +107,62 @@ section.bg-image button {
   display: block;
   bottom: 0;
   left: 50%;
-  width: 200px;
+  /*width: 200px;
   height: 60px;
-  border-radius: 3px;
+  border-radius: 3px;*/
+  border: 3px white solid;
   margin: 40px 0;
   transform: translateX(-50%);
-  background: linear-gradient(95.04deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.72) 79.48%, rgba(255, 255, 255, 0) 117.07%);
+  background: transparent;
+  color: white;
+  /*font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;*/
+  transition-duration: 0.3s;
   /*background-color: #09CED9;*/
+}
+
+section.bg-image button:hover {
+  background-color: white;
+  color: #DB00FF;
 }
 
 #about {
   min-height: unset;
-  background-color: rgb(252, 253, 173);
+  background-color: white;
+}
+
+#about h1 {
+  /*position: absolute;
+  display: block;
+  left: 10px;*/
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 5%;
+  width: 200px;
+  height: 200px;
+  border-radius: 10rem;
+  background: linear-gradient(111.53deg, #1815BA 7.56%, #DB00FF 126.86%);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  line-height: 160px;
 }
 
 #about article {
   width: 100%;
-  max-width: 400px;
-  padding: 80px 20px;
+  max-width: 500px;
+  padding: 40px 20px;
   margin: 0 auto;
 }
 
-#about h2 {
+/*#about h2 {
   padding-bottom: 20px;
-}
+}*/
 
 #services {
   padding: 80px 0;
@@ -124,7 +177,7 @@ section.bg-image button {
   padding: 20px;
   margin: 0 auto;
   list-style: none;
-  background-color: rgba(83, 83, 83, 0.68);
+  background: linear-gradient(95.04deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.72) 79.48%, rgba(255, 255, 255, 0) 117.07%);
   color: rgb(241, 241, 241);
 }
 
@@ -134,13 +187,13 @@ section.bg-image button {
 }
 
 #login {
-  background-color: rgb(53, 156, 170);
+  background-color: rgb(0, 0, 0);
 }
 
 #login form {
   width: 100%;
   max-width: 400px;
-  padding: 40px 20px;
+  padding: 90px 20px;
   margin: 0 auto;
 }
 
@@ -151,27 +204,34 @@ section.bg-image button {
 }
 
 #login label {
-  font-size: 12px;
   padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.05em;
 }
 
 #login input {
-  height: 60px;
+  height: 55px;
   padding: 0 10px;
   margin-bottom: 30px;
-  font-size: 18px;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 3px;
+  font-size: 18px;
+  color: rgb(63, 63, 63);
+  letter-spacing: 0.05em;
 }
 
 #login button {
-  width: 200px;
+  margin-top: 30px;
+  /*width: 200px;
   height: 60px;
-  border-radius: 30px;
-  background-color: #09CED9;
-  font-size: 24px;
+  border-radius: 30px;*/
+  background: linear-gradient(111.53deg, #1815BA 7.56%, #DB00FF 126.86%);
+  color: white;
+  /*font-size: 24px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  text-transform: uppercase;*/
 }
 
 
