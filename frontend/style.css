@@ -34,9 +34,23 @@ select {
 /*end of CSS reset*/
 
 
+html {
+  scroll-behavior: smooth; /*finoman scroll-oz, ha menüre kattintunk az oldalakra*/
+}
 
 body {
   font-family: Roboto;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 99;
+  text-align: center;
+  background-color: rgb(241, 241, 241);
 }
 
 section {
