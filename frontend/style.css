@@ -54,16 +54,18 @@ header {
   /*word-spacing: normal;*/
   background: linear-gradient(111.53deg, #1815BA 7.56%, #DB00FF 126.86%);
   opacity: 70%;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.1em;
 }
 
 a {
-  margin: 3.5rem;
+  margin: 6rem;
   color: white;
 }
 
 section {
+  width: 100%;
   min-height: 100vh;
 }
 
@@ -128,9 +130,11 @@ section.bg-image button:hover {
   color: #DB00FF;
 }
 
+/*----------About page style----------*/
 #about {
-  min-height: unset;
+  /*min-height: unset;*/
   background-color: white;
+  font-size: 25px;
 }
 
 #about h1 {
@@ -138,32 +142,34 @@ section.bg-image button:hover {
   display: block;
   left: 10px;*/
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 120px;
   margin-left: 5%;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 10rem;
   background: linear-gradient(111.53deg, #1815BA 7.56%, #DB00FF 126.86%);
   text-align: center;
   color: white;
-  font-size: 20px;
+  /*font-size: 20px;*/
   font-weight: 800;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  line-height: 160px;
+  line-height: 250px;
 }
 
 #about article {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   padding: 40px 20px;
   margin: 0 auto;
+  font-size: 22px;
 }
 
 /*#about h2 {
   padding-bottom: 20px;
 }*/
 
+/*----------Services page style---------*/
 #services {
   padding: 80px 0;
   background-image: url(https://user-images.githubusercontent.com/64097209/152344910-0139cde6-ce38-4328-8b20-625d77913962.jpg);
@@ -186,14 +192,15 @@ section.bg-image button:hover {
   text-align: center;
 }
 
+/*---------------Login page sytle-------------*/
 #login {
   background-color: rgb(0, 0, 0);
 }
 
 #login form {
   width: 100%;
-  max-width: 400px;
-  padding: 90px 20px;
+  max-width: 600px;
+  padding: 120px 30px;
   margin: 0 auto;
 }
 
@@ -204,15 +211,15 @@ section.bg-image button:hover {
 }
 
 #login label {
-  padding-bottom: 10px;
-  font-size: 18px;
+  padding-bottom: 20px;
+  font-size: 20px;
   font-weight: 600;
   color: white;
   letter-spacing: 0.05em;
 }
 
 #login input {
-  height: 55px;
+  height: 65px;
   padding: 0 10px;
   margin-bottom: 30px;
   background-color: white;
@@ -224,8 +231,8 @@ section.bg-image button:hover {
 
 #login button {
   margin-top: 30px;
+  height: 65px;
   /*width: 200px;
-  height: 60px;
   border-radius: 30px;*/
   background: linear-gradient(111.53deg, #1815BA 7.56%, #DB00FF 126.86%);
   color: white;
